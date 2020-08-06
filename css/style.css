@@ -90,7 +90,7 @@ address {
     clear: both;
   }
   @media screen and (max-width: 600px) {
-    .column {
+    .column-l, .column-r {
       width: 100%;
     }
   }
