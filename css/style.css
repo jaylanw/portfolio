@@ -16,11 +16,19 @@ nav {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 img {
     display: inline-block;
     margin: 40px;
     height: 700px;
     width: 500px;
+}
+
+img:hover {
+    opacity: 70%;
 }
 
 h2 {
@@ -58,3 +66,36 @@ address {
 .logo:hover {
     opacity: 70%;
 }
+
+
+.column-l {
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column-r {
+    float: right;
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  .web-container {
+      margin-top: 20vh;
+      text-align: center;
+  }
