@@ -1,6 +1,6 @@
 # My Portfolio
   
-  Hello! This is my new and updated portfolio.
+  Hello! This is my new and updated portfolio.  
   https://jaylanw.github.io/portfolio/
       
   
