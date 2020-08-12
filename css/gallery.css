@@ -52,7 +52,7 @@ and (max-device-width : 480px) {
   .container, nav  {
     max-width: 100%;
   }
-  .img-fluid {
+  .img {
     width: 100%;
     height: auto;
   }
@@ -64,7 +64,7 @@ and (max-device-width : 1024px) {
 .container, nav{
   max-width: 100%;
 }
-.img-fluid {
+.img {
   width: 100%;
   height: auto;
 }
