@@ -2,6 +2,17 @@
     font-family: 'Krona One', sans-serif;
 }
 
+html, body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+h1 {
+  margin-top: 3vh;
+}
+
 nav {
     margin-left: 2vw;
     display: inline-block;
@@ -11,6 +22,8 @@ nav {
 .nav-link {
     color: black;
     text-decoration: none;
+    display: inline;
+    padding-right: 2px;
 }
 
 
@@ -22,6 +35,17 @@ h2 {
     margin-top: 30vh;
 }
 
+.container {
+  margin-top: 8vh;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+  
+}
 
 .row {
   display: flex;
@@ -32,40 +56,13 @@ h2 {
 .column {
   flex: 20%;
   max-width: 20%;
-  padding: 0 4px;
+  padding: 4px;
+  
 }
 
-.column img {
-  margin-top: 8px;
+ img {
   vertical-align: middle;
   width: 100%;
-}
+  margin-top: 8px;
 
-.img-container {
-  margin-top: 40px;
-  margin-left: 15vw;
-}
-
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
-  .container, nav  {
-    max-width: 100%;
-  }
-  .img {
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
-.container, nav{
-  max-width: 100%;
-}
-.img {
-  width: 100%;
-  height: auto;
-}
 }
