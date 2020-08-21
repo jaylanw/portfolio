@@ -72,3 +72,20 @@ h2 {
   margin-top: 8px;
 
 }
+
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  .container, nav  {
+    max-width: 100%;
+  }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+.container, nav{
+  max-width: 100%;
+}
+}
