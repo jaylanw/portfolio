@@ -9,41 +9,26 @@ html, body {
   overflow-x: hidden;
 }
 
-h1 {
-  margin-top: 5vh;
-  font-size: 25px;
-}
-
-nav {
-    margin-left: 2vw;
-    display: inline-block;
-    flex: auto;
-}
-
-.nav-link {
-    color: black;
-    text-decoration: none;
-    display: inline;
-    padding-right: 0vw;
-    padding-left: 0px;
-  }
-
-  .nav-link:hover{
-    text-decoration: underline;
-    color: black;
-  }
-
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 60px;
-    text-align: center;
-    margin-top: 30vh;
-}
-
-.container {
+.is-3 {
+  color: black;
+  margin-left: 5vw;
   margin-top: 5vh;
 }
+
+.navbar-burger {
+  margin-top: 5vh;
+}
+
+.navbar-end {
+  margin-top: 5vh;
+  margin-right: 5vw;
+}
+
+.is-6 {
+  color: black;
+}
+
+
 
 .no-gutters {
   margin-right: 0;
@@ -53,17 +38,13 @@ h2 {
   
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+.container {
+  padding: 90px;
 }
 
 .column {
-  flex: 20%;
-  max-width: 20%;
   padding: 4px;
-  
+
 }
 
  img {
@@ -73,19 +54,7 @@ h2 {
 
 }
 
-
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
-  .container, nav  {
-    max-width: 100%;
-  }
-}
-
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
-.container, nav{
-  max-width: 100%;
-}
+.navbar {
+  min-height: unset; 
+  height: 100px;
 }

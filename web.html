@@ -1,69 +1,80 @@
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Linking Google Font -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>   
+    
+  <!-- Linking Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap"
       rel="stylesheet"
     />
-    <!-- Linking Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+
     <!-- Linking Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+
+        <!-- Linking Bulma -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
     <title>Jaylan Wienckowski</title>
   </head>
   <body>
-    <nav>
-      <div class="row">
-        <h1>JW</h1>
-        <div class="container" style="margin-left: 85vw; margin-top: -5vh;">
-          <a class="nav-item nav-link" href="index.html">Work</a>
-          <a class="nav-item nav-link" href="contact.html">Contact</a>
-        </div>
-      </div>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+              <h2 class="title is-3">JW</h2>
+                        </a>
+       <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+</div>
+<div class="navbar-menu" id="navMenu">
+  <div class="navbar-end">
+  <a class="navbar-item" href="index.html" >
+    <h6 class="title is-6">Work</h6>
+  </a>
+  <a class="navbar-item" href="contact.html">
+    <h6 class="title is-6">Contact</h6>
+  </a>
+</div>
+</div>
     </nav>
-    <div class="container">
-      <div class="row">
-        <div class="column-l">
-            <h2>time</h2>
+    <div class="web-container">
+      <div class="columns">
+        <div class="column is-5">
+                      <h3 class="title is-1">time</h3>
             <p>
               Something easy for the eyes.
             </p>
         </div>
-        <div class="column-r">
-          <div class="web-container">
+        
+        <div class="column">
             <a href="https://jaylanw.github.io/time/" target="blank">
                 <img
                   src="assets/images/time.png"
                   style="
                     width: auto;
                     height: 400px;
-                    margin-top: 9h;
-                    margin-left: -8vw;"
+                    margin-top: 9h;"
                 />
               </a>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="column-l">
+        <div class="columns">
+        <div class="column-7">
           <a href="https://shrouded-chamber-97830.herokuapp.com/" target="blank">
             <img
               src="assets/images/moodifiScreen.png"
               style="
                 width: auto;
-                height: 50vh;
+                height: 400px;
                 margin-top: 18vh;
                 margin-left: 5vw;"
-            />
+                           />
           </a>
         </div>
-        <div class="column-r">
+        <div class="column">
           <div class="web-container">
-            <h2>moodifi</h2>
+            <h3 class="title is-1">moodifi</h3>
             <p>
               Curated playlist for whatever you do, and your moods. <br />
               Discover new music based on your activities and feelings! <br />
@@ -71,16 +82,19 @@
             </p>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="column-l">
-            <h2>coffee run</h2>
+        </div>
+      <div class="columns">
+        <div class="column is-5">
+          <div class="web-container">
+
+            <h3 class="title is-1">coffee run</h3>
             <p>
                 Want coffee? <br>
                 Locate nearby coffee shops with coffee run! 
             </p>
         </div>
-        <div class="column-r">
+        </div>
+        <div class="column">
           <div class="web-container">
             <a href="https://shmoesolid.github.io/Coffee-Run/" target="blank">
                 <img
@@ -89,29 +103,29 @@
                     width: auto;
                     height: 400px;
                     margin-top: 9h;
-                    margin-left: -8vw;"
+                   "
                 />
               </a>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="column-l">
+      <div class="columns">
+        <div class="column is-7">
             <a href="https://jaylanw.github.io/Weekly-Weather/" target="blank">
                 <img
                   src="assets/images/weeklyweather.jpeg"
                   style="
                     width: auto;
                     height: 400px;
-                    margin-top: 18vh;
-                    margin-left: 5vw;"
+                    margin-top: 18vh;"
                 />
               </a>
         </div>
-        <div class="column-r">
+        <div class="column">
           <div class="web-container">
-            <h2>Weekly <br>
-                Weather</h2>
+            <h3 class="title is-1">
+                Weekly <br>
+                Weather</h3>
             <p>
                 Check the forecast in your city! <br>
                 Traveling? Check other city's forecast at the click of a button.
@@ -119,15 +133,19 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="column-l">
-            <h2>Note <br>
-                Taker</h2>
+      <div class="columns">
+        <div class="column is-5">
+          <div class="web-container">
+
+            <h3 class="title is-1">
+                Note <br>
+                Taker</h3>
             <p>
                 Take, view, and delete notes all in one app!
             </p>
         </div>
-        <div class="column-r">
+        </div>
+        <div class="column">
           <div class="web-container">
             <a href="https://jaylannotes.herokuapp.com/" target="blank">
                 <img
@@ -135,8 +153,7 @@
                   style="
                     width: auto;
                     height: 400px;
-                    margin-top: 9h;
-                    margin-left: -8vw;"
+                    margin-top: 9h;"
                 />
               </a>
           </div>
@@ -147,5 +164,7 @@
             <i class="fa fa-github logo" style="font-size: 32px; color: black;"></i>
     </div>
     </div>
+    <script src="js/script.js" type="text/javascript"></script>
+
   </body>
 </html>

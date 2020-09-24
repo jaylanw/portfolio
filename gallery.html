@@ -1,83 +1,94 @@
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>   
-    
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+
   <!-- Linking Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap"
-      rel="stylesheet"
-    />
+  <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet" />
 
-    <!-- Linking Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Linking Stylesheet -->
+  <link href="css/gallery.css" rel="stylesheet" />
 
-    <!-- Linking Stylesheet -->
-    <link href="css/gallery.css" rel="stylesheet" />
-    <title>Jaylan Wienckowski</title>
-  </head>
-  <body>
-    <nav class="navbar">
-      <div class="nav-row">
-        <h1>JW</h1>
-        <div class="container" style="margin-left: 85vw; margin-top: -4vh;">
-          <a class="nav-item nav-link" href="index.html">Work</a>
-          <a class="nav-item nav-link" href="contact.html">Contact</a>
-        </div>
+  <!-- Linking Bulma -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+  <title>Jaylan Wienckowski</title>
+</head>
+
+<body>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="index.html">
+        <h2 class="title is-3">JW</h2>
+      </a>
+      <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu" id="navMenu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="index.html">
+          <h6 class="title is-6">Work</h6>
+        </a>
+        <a class="navbar-item" href="contact.html">
+          <h6 class="title is-6">Contact</h6>
+        </a>
       </div>
-    </nav>
-    <div class="container">
-    <main class="site-content" style="margin: auto;">
-          <div class="row">
-            <div class="col-md-3">
-              <img  src="assets/images/eli1.jpg">
-              <img  src="assets/images/eli2.jpg">
-              <img src="assets/images/eli3.JPG">
-              <img src="assets/images/eli4.JPG">
-              <img class="lazy" data-src="assets/images/a1.jpg">
-              <img class="lazy" data-src="assets/images/a2.jpg">
-              <img class="lazy" data-src="assets/images/a3.jpg">
-              <img class="lazy" data-src="assets/images/a4.jpg">
-            </div>
-            <div class="col-md-3">
-              <img src="assets/images/d1.jpg" />
-              <img  src="assets/images/d2.jpg" />
-              <img  src="assets/images/d4.jpg" />
-              <img src="assets/images/d3.jpg" />
-              <img class="lazy" data-src="assets/images/gq.jpg" />
-              <img class="lazy" data-src="assets/images/gq2.jpg" />
-              <img class="lazy" data-src="assets/images/gq3.jpg" />
-              <img class="lazy" data-src="assets/images/wed3.jpg" />
-              <img class="lazy" data-src="assets/images/wed2.jpg" />
-            </div>
-            <div class="col-md-3">
-              <img src="assets/images/o1.jpg" />
-              <img  src="assets/images/o2.jpg" />
-              <img  src="assets/images/o3.jpg" />
-              <img src="assets/images/04.jpg" />
-              <img class="lazy" data-src="assets/images/os.jpg" />
-              <img class="lazy" data-src="assets/images/os3.jpg" />
-              <img class="lazy" data-src="assets/images/0s4.jpg" />
-              <img class="lazy" data-src="assets/images/os2.jpg" />
-              <img class="lazy" data-src="assets/images/g1.jpg" />
-              <img class="lazy" data-src="assets/images/g2.jpg" />
-              <img class="lazy" data-src="assets/images/wed1.jpg" />
-            </div>
-            <div class="col-md-3">
-              <img src="assets/images/vf.jpg" />
-              <img src="assets/images/vf2.jpg" />
-              <img src="assets/images/vf3.jpg" />
-              <img src="assets/images/vf4.jpg" />
-              <img class="lazy" data-src="assets/images/L1.jpg" />
-              <img class="lazy" data-src="assets/images/L2.jpg" />
-              <img class="lazy" data-src="assets/images/led1.jpg" />
-              <img class="lazy" data-src="assets/images/led2.jpg" />
-              <img class="lazy" data-src="assets/images/wed5.jpg" />
-              <img class="lazy" data-src="assets/images/wed4.jpg" />
-            </div>
-          </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <img src="assets/images/eli1.jpg">
+        <img src="assets/images/eli2.jpg">
+        <img src="assets/images/eli3.JPG">
+        <img src="assets/images/eli4.JPG">
+        <img class="lazy" data-src="assets/images/a1.jpg">
+        <img class="lazy" data-src="assets/images/a2.jpg">
+        <img class="lazy" data-src="assets/images/a3.jpg">
+        <img class="lazy" data-src="assets/images/a4.jpg">
       </div>
-    </main>
-    <script src="js/script.js" type="text/javascript"></script>
-  </body>
+      <div class="column">
+        <img src="assets/images/d1.jpg" />
+        <img src="assets/images/d2.jpg" />
+        <img src="assets/images/d4.jpg" />
+        <img src="assets/images/d3.jpg" />
+        <img class="lazy" data-src="assets/images/gq.jpg" />
+        <img class="lazy" data-src="assets/images/gq2.jpg" />
+        <img class="lazy" data-src="assets/images/gq3.jpg" />
+        <img class="lazy" data-src="assets/images/wed3.jpg" />
+        <img class="lazy" data-src="assets/images/wed2.jpg" />
+      </div>
+      <div class="column">
+        <img src="assets/images/o1.jpg" />
+        <img src="assets/images/o2.jpg" />
+        <img src="assets/images/o3.jpg" />
+        <img src="assets/images/04.jpg" />
+        <img class="lazy" data-src="assets/images/os.jpg" />
+        <img class="lazy" data-src="assets/images/os3.jpg" />
+        <img class="lazy" data-src="assets/images/0s4.jpg" />
+        <img class="lazy" data-src="assets/images/os2.jpg" />
+        <img class="lazy" data-src="assets/images/g1.jpg" />
+        <img class="lazy" data-src="assets/images/g2.jpg" />
+        <img class="lazy" data-src="assets/images/wed1.jpg" />
+      </div>
+      <div class="column">
+        <img src="assets/images/vf.jpg" />
+        <img src="assets/images/vf2.jpg" />
+        <img src="assets/images/vf3.jpg" />
+        <img src="assets/images/vf4.jpg" />
+        <img class="lazy" data-src="assets/images/L1.jpg" />
+        <img class="lazy" data-src="assets/images/L2.jpg" />
+        <img class="lazy" data-src="assets/images/led1.jpg" />
+        <img class="lazy" data-src="assets/images/led2.jpg" />
+        <img class="lazy" data-src="assets/images/wed5.jpg" />
+        <img class="lazy" data-src="assets/images/wed4.jpg" />
+      </div>
+    </div>
+  </div>
+  <script src="js/script.js" type="text/javascript"></script>
+</body>
+
 </html>

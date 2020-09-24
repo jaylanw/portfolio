@@ -3,34 +3,45 @@
 }
 
 
-nav {
-  margin-top: 2vh;
-  margin-left: 2vw;
-  display: inline-block;
-  flex: auto;
-}
-
-.nav-link {
+.is-3 {
   color: black;
-  text-decoration: none;
-  display: inline;
-  padding-right: 0vw;
-  padding-left: 0px;
+  margin-left: 5vw;
+  margin-top: 5vh;
 }
 
-.nav-link:hover{
-  text-decoration: underline;
+.navbar-burger {
+  margin-top: 5vh;
+}
+
+.navbar-end {
+  margin-top: 5vh;
+  margin-right: 5vw;
+}
+
+.is-6 {
   color: black;
 }
 
 
-.img-container {
+.navbar {
+  min-height: unset; 
+  height: 100px;
+}
+
+
+
+img {
     text-align: center;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+    color: black;
+}
+
+.is-6:hover {
+  color: rgb(211, 172, 0); ;
 }
 
 .faI {
@@ -39,7 +50,7 @@ a {
     margin-left: 2vw;
 }
 
-h2 {
+.is-1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 60px;
@@ -47,10 +58,12 @@ h2 {
     margin-top: 30vh;
 }
 
+
 p {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    color: black;
 }
 
 address {
@@ -77,81 +90,27 @@ address {
 }
 
 
-.column-l {
-    float: left;
-    width: 50%;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  .column-r {
-    float: right;
-    width: 50%;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  @media screen and (max-width: 600px) {
-    .column-l, .column-r {
-      width: 100%;
-    }
-  }
-
   .web-container {
       margin-top: 20vh;
       text-align: center;
   }
 
+  
 
   .animate__animated.animate__fadeIn {
     --animate-duration: 2s;
   }
 
   h4{
-      text-align: left;
+      text-align: center;
       font-family: Arial, Helvetica, sans-serif;
-      margin-left: 3vw;
   }
 
-  hr {
-    width: 30vw;
-    margin-left: 68vw;
-  }
 
-.container-y {
-border: solid;
-border-left: none;
-border-color: rgb(211, 172, 0);
-width: 2vw;
-float: left;
-}
 
 #resumeL {
   text-align: center;
 }
 #resumeL:hover {
   text-decoration: underline;
-}
-
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
-  .container, nav  {
-    max-width: 100%;
-  }
-}
-
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
-.container, nav{
-  max-width: 100%;
-}
 }
